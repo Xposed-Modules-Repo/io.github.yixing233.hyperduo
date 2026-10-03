@@ -2,6 +2,8 @@
 
 把状态栏里的 **Wi-Fi、移动信号、电量** 合并成一个仿 iPhone「Duo」风格的三合一图标。
 
+<img src="https://cdn.jsdelivr.net/gh/yixing233/HyperDuo@main/docs/images/statusbar.png" width="900" alt="HyperDuo 在真实状态栏里的效果">
+
 > **包名已更换**：从 1.4 起是 `io.github.yixing233.hyperduo`（1.3 及更早是 `com.hyperduo.trio`）。
 > 包名变了就是另一个应用，**无法覆盖升级**：请先卸载旧版（设置会一起清掉），再安装新版。
 
@@ -41,6 +43,13 @@ HyperDuo 是一个 LSPosed 模块，只作用于系统界面（`com.android.syst
 
 两个开关都**只在环外模式下生效**：环内的点阵、以及上面说的「双卡信号」两排点，都不受它们影响。
 
+## 效果预览
+
+<img src="https://cdn.jsdelivr.net/gh/yixing233/HyperDuo@main/docs/images/states.png" width="820" alt="六种典型状态：充电、快充、正常、无 Wi-Fi、省电、危险">
+
+从左到右：充电、快充、正常、无 Wi-Fi（显示网络类型）、省电、危险。这套预览也内置在设置界面顶部，
+会跟着你的设置实时变化。
+
 ## 要求
 
 | 项目 | 要求 |
@@ -57,6 +66,8 @@ HyperDuo 是一个 LSPosed 模块，只作用于系统界面（`com.android.syst
 
 设置界面按 **常规 / 尺寸 / 颜色 / 关于** 四个分页组织，顶部是跟着设置实时变化的「效果预览」，
 顶栏右侧还有一个**重启系统界面**按钮。
+
+<img src="https://cdn.jsdelivr.net/gh/yixing233/HyperDuo@main/docs/images/settings.png" width="420" alt="设置界面：顶部的效果预览与四个分页">
 
 ### 常规
 
