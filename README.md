@@ -139,3 +139,8 @@ Wi-Fi 图标、信号格与电池图标被替换成一个整体字形：外圈�
 ## 致谢
 
 设置界面基于 Compose + [Miuix](https://github.com/miuix-kotlin-multiplatform/miuix) 实现 MIUI 风格。
+
+## 许可证
+
+[GNU General Public License v3.0](https://github.com/yixing233/HyperDuo/blob/main/LICENSE)
+（GPL-3.0）：可自由使用、修改与再分发；分发修改后的版本时须以同一协议公开源码。不提供担保。
